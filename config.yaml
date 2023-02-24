@@ -1,5 +1,5 @@
-baseURL: http://example.org/
+baseURL: https://lukaszjedrasiak.github.io/playground--hugo/ 
 languageCode: en-us
-title: My New Hugo Site
+title: jedrasiak 
 
 publishDir: docs
