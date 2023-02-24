@@ -9,7 +9,6 @@ html {
 *::after {
     box-sizing: inherit;
     margin: 0;
-    font-size: initial;
 }
 
 /* DEFAULT THEME - DARK*/
@@ -94,7 +93,7 @@ main {
 /* PARAGRAPH */
 p {
     font-size: 1.125rem;
-    line-height: 1.5;
+    line-height: 1.5rem;
 }
 
 p+p {
