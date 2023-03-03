@@ -5,3 +5,10 @@
 {{- $css := resources.GetMatch "/css/main.css" | resources.Minify | resources.Fingerprint -}}
 <link rel="stylesheet" href="{{$css.Permalink}}">
 
+{{with .Params.customHead}}
+    {{printf . | safeHTML}}
+{{end}}
+
+{{with .Params.customCss}}
+    <link rel="stylesheet" href="{{$.Site.BaseURL}}css/{{.}}">
+{{end}}

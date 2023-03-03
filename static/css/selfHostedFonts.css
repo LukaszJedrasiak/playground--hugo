@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "PaneuropaNova-regular";
+    src: url('../fonts/PaneuropaNova/paneuropanova-regular.eot');
+    src: url('../fonts/PaneuropaNova/paneuropanova-regular.eot') format('embedded-opentype'),
+         url('../fonts/PaneuropaNova/paneuropanova-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "PaneuropaNova-regularitalic";
+    src: url('../fonts/PaneuropaNova/paneuropanova-regularitalic.eot');
+    src: url('../fonts/PaneuropaNova/paneuropanova-regularitalic.eot') format('embedded-opentype'),
+         url('../fonts/PaneuropaNova/paneuropanova-regularitalic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "PaneuropaNova-bold";
+    src: url('../fonts/PaneuropaNova/paneuropanova-bold.eot');
+    src: url('../fonts/PaneuropaNova/paneuropanova-bold.eot') format('embedded-opentype'),
+         url('../fonts/PaneuropaNova/paneuropanova-bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "PaneuropaNova-bolditalic";
+    src: url('../fonts/PaneuropaNova/paneuropanova-bolditalic.eot');
+    src: url('../fonts/PaneuropaNova/paneuropanova-bolditalic.eot') format('embedded-opentype'),
+         url('../fonts/PaneuropaNova/paneuropanova-bolditalic.woff2') format('woff2');
+}
+
+body {
+    font-family: 'PaneuropaNova-regular';
+}
+
+strong {
+    font-family: 'PaneuropaNova-bold';
+}
+
+em {
+    font-family: 'PaneuropaNova-regularitalic';
+}
+
+strong em,
+em strong {
+    font-family: 'PaneuropaNova-bolditalic';
+}
